@@ -1,11 +1,4 @@
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-
-iQEcBAEBAgAGBQJeU4TKAAoJELKCaPMHYUw0TgsH/26C4iDb2CapTBayhNetjUDB
-dX/H8elDQM350zbrxmgPG2XxTm4v8VexWnwMphbDI7WvUdAxfMUXnSxjBkhIqUpa
-YD/lmRq6YyOhwHHuR8cCCk89pdYJ3d3xNDzlTlre4yWS6xvy2JVgFGnTFR6gYgey
-dV4NntjH8K/jcSI2z1PSN0lAcTEGiaBJNel5CfZzKm7XBqq3hiJjkeyoXXJg6ZJa
-ooTKN4Uxg4CUvlgFCvxeJbkvml+b0PlcN++Mg7d5fyomZr27tv9QV1TqTQx8PWwH
-iAveomgyhbsIXEhSdzsOY6txU14Uoe1PZhGZPQev5mUtKopsuQAdpZ7ZrrL5ALo=
-=k7VD
------END PGP SIGNATURE----- 
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1                                                                                                                                                                                                                               owEBbgGR/pANAwACAbKCaPMHYUw0Aaw+Ygdkb2MudHh0Xlub209TMjAxIEIgMTgw                                                        NjE5MTYxNiB0YXN5YXNoYnIgVGFzeWEgUHV0cmkgU2hhYmlyYQqJARwEAAECAAYF                                                        Al5bm9sACgkQsoJo8wdhTDQHxAf/Yu66vxrpHUp16rDffn7RV33EFEjkUDtIjeyU                                                        duERUegj87TPBiPouJnVII8nRx3or9hHGRd4IpFKMjfOSZkKfOe8QH6zO56lxnS8                                                        VVdgYDFuA/2gSdUokYGr+NigzwAQlxFAdUZWKISVLK6/W/CVLccfB087j9gqLSSQ                                                        +XrfniTgb6G5w8UU+ug02BaG7y24GLM1hsPbj3si6V3fjoq3QBN54cvsuNLMuXug                                                        01WqgwxHm+W3BZ+6yMJILHwLLzCyZCBkQddybN4e7sBmKcct1A4UlxluTIsBc9PY                                                        5KCPrxZFx7Yg1pzwlnMSJvTVlA9vMQ64QPnD53PM7idvhXzRHg==
+=afPo
+-----END PGP MESSAGE-----
