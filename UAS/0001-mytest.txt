@@ -1,0 +1,29 @@
+Script started on Sat 06 Jun 2020 02:02:28 PM WIB
+tasya.putri81@badak:~$ PS1="$ "
+$ echo $GitHubUser
+tasyashbr
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200606-140254-f965-tasya.putri81/>
+$ PS1="\$(eval \$PSTAMP)"
+200606-140308-8729-tasya.putri81/> date
+Sat Jun  6 14:03:10 WIB 2020
+200606-140310-6323-tasya.putri81/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/t/tasya.putri81/.gnupg/pubring.gpg
+-----------------------------------------------------------
+pub   2048R/07614C34 2020-02-24
+uid       [ultimate] Tasya Putri Shabira <tasya.putri81@ui.ac.id>
+sub   2048R/47802DCD 2020-02-24
+
+pub   2048R/8A9DD0EC 2020-02-24
+uid       [ultimate] Tasya Putri Shabira <tasya.putri81@ui.ac.id>
+sub   2048R/149E5AAE 2020-02-24
+
+pub   2048R/479EDE1E 2020-02-24
+uid       [ultimate] Tasya Putri Shabira <tasya.putri81@ui.ac.id>
+
+200606-140320-1a19-tasya.putri81/> exit
+exit
+
+Script done on Sat 06 Jun 2020 02:03:30 PM WIB
