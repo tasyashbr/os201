@@ -1,0 +1,23 @@
+Script started on Mon Jun  8 12:19:24 2020
+tasya.putri81@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+tasyashbr
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-121957-fe0e-UAS/> ls -F
+0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
+200608-122003-8567-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-122015-1e85-UAS/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-122024-be30-UAS/> gpg2 -sb -a SHA1SUM
+200608-122032-aafd-UAS/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 12:20:32 2020 WIB using RSA key ID 07614C34
+gpg: Good signature from "Tasya Putri Shabira <tasya.putri81@ui.ac.id>" [ultimate]
+200608-122039-f128-UAS/> exit
+exit
+
+Script done on Mon Jun  8 12:20:48 2020
