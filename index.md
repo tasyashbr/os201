@@ -3,7 +3,7 @@ Welcome to my fresh-and-new Github Pages!
 Thanks for visiting :)
 
 ## Who am I?
-Assalamu'alaikum! Tasput here.
+Assalamu'alaikum!
 My name is Tasya Putri Shabira. People know me as "Tasput."
 
 ## What do I do?
