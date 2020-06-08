@@ -7,7 +7,7 @@ Thanks for visiting :)
 
 ==================== **tasyashbr's Github Page** ====================
 
-<img src=".github/tasya.jpg">
+<img src="tasya.jpg">
 
 ### Who am I?
 Assalamu'alaikum!
