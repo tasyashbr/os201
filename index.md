@@ -1,9 +1,3 @@
----
-title: Tasya Putri Shabira
-layout: template
-filename: index.md
---- 
-
 # tasyashbr's Github Pages
 Welcome to my fresh-and-new Github Pages!
 Thanks for visiting :)
