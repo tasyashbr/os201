@@ -1,23 +1,32 @@
-Script started on Tue Jun 23 11:25:01 2020
-]0;tasya.putri81@badak: ~/PAS0tasya.putri81@badak:~/PAS0$ PS1="$ "
+Script started on Wed Jun 24 07:14:58 2020
+]0;tasya.putri81@badak: ~/os201/UAStasya.putri81@badak:~/os201/UAS$ PS1="$ "
 $ echo $GitHubUser
 tasyashbr
+$ date
+Wed Jun 24 07:15:35 WIB 2020
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ PS1="\$(eval \$PSTAMP)"
-200623-112533-f533-PAS0/> ls -F
-0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
-200623-112539-5f56-PAS0/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
-200623-112552-8393-PAS0/> sha1sum -c SHA1SUM
+200624-071551-919b-UAS/> date
+Wed Jun 24 07:15:57 WIB 2020
+200624-071557-dd9f-UAS/> ls -F
+0000-mypub.txt          0006-TUGAS-2.tar.bz2.asc
+0001-mytest.txt         0006-TUGAS-2.tar.bz2.asc.asc
+0002-mytest.txt.asc     0007-I-HAVE-FINISHED-SIGNED-COMMITED-AND-PUSHED-AND-VERIFIED-TUGAS-2.txt
+0003-CEK-PAS0.txt       SHA1SUM
+0004-TUGAS-PAS1.txt     SHA1SUM.asc
+0005-KODE-ETIK.txt.asc
+200624-071602-7386-UAS/> sha1sum 000[0-2]* > SHA1SUM
+200624-071612-3c8f-UAS/> sha1sum -c SHA1SUM
 0000-mypub.txt: OK
 0001-mytest.txt: OK
 0002-mytest.txt.asc: OK
-200623-112558-fc48-PAS0/> gpg2 -sb -a SHA1SUM
-200623-112608-b094-PAS0/> gpg2 --verify SHA1SUM.asc
-gpg: assuming signed data in 'SHA1SUM'
-gpg: Signature made Tue Jun 23 11:26:08 2020 WIB using RSA key ID 07614C34
+200624-071624-76f1-UAS/> gpg2 -sb -a SHA1SUM
+File `SHA1SUM.asc' exists. Overwrite? (y/N) y
+200624-071632-87ae-UAS/> gpg2 --verify SHA1SUM.asc SHA1SUM
+gpg: Signature made Wed Jun 24 07:16:32 2020 WIB using RSA key ID 07614C34
 gpg: Good signature from "Tasya Putri Shabira <tasya.putri81@ui.ac.id>" [ultimate]
-200623-112615-03bd-PAS0/> exit
+200624-071642-5d47-UAS/> exit
 exit
 
-Script done on Tue Jun 23 11:26:22 2020
+Script done on Wed Jun 24 07:16:51 2020
