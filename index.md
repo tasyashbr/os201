@@ -7,8 +7,6 @@ Thanks for visiting :)
 
 ==================== **tasyashbr's Github Page** ====================
 
-<img src="tasya.jpg">
-
 ### Who am I?
 Assalamu'alaikum!
 My name is Tasya Putri Shabira. People know me as "Tasput."
